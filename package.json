@@ -9,7 +9,7 @@
     "build": "pnpm xata-codegen && prisma generate && next build",
     "start": "next start",
     "lint": "next lint",
-    "lint-commit": "npx --no-install commitlint --edit \"$1\"",
+    "lint-commit": "npx --no-install commitlint --edit \"\"",
     "xata-init": "xata init --db $XATA_HTTPS_DATABASE_URL --no-input --yes --codegen src/xata.ts --force",
     "xata-codegen": "xata codegen --db $XATA_HTTPS_DATABASE_URL -o src/xata.ts"
   },

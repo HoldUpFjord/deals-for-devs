@@ -1,5 +1,6 @@
 import Container from '@/components/Container'
 import FeaturedDealsSection from '@/components/deals/FeaturedDealsSection'
+import RecentDealsSection from '@/components/deals/RecentDealsSection'
 import DevGiveaways from '@/components/DevGiveaways'
 import Hero from '@/components/Hero'
 import NeverMissADeal from '@/components/NeverMissADeal'
@@ -11,6 +12,8 @@ export default async function Home() {
       <main className="mx-auto max-w-7xl">
         <Hero />
         <FeaturedDealsSection />
+        <Separator className="mx-6 mb-20 md:mx-0" />
+        <RecentDealsSection />
         <Separator className="mx-6 mb-20 md:mx-0" />
         <div className="mb-20">
           <NeverMissADeal />
